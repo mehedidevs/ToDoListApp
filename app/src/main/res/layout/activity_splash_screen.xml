@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="To Do"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:fontFamily="@font/lobster"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage Your Day"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#8A8686"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:letterSpacing="0.2"
+        android:fontFamily="@font/lobster"/>
+
+</LinearLayout>
